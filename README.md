@@ -8,7 +8,14 @@ i.e. /etc/letsencrypt/archive/test.com
 # Script Useage
 
 ## Get Cert
-> get a cert using certonly flag
+
+convenientally get a cert using certonly flag
+
+> this script is just merely abstracting away -m emailaddr@gmail.com -w /var/www/html -d www.test.com flags out 
+> so its for when you aren't going to have to change much every time you run certbot and you can't sufficiently just use certbot's config file
+> (does certbot's config file let you specify default subdomains? if so this script is pointless lol)
+>
+> you can alter the config values in this script (and easily add more)
 > (if you want to let certbot manage your nginx or apache you may need to change the `get_cert` fn to fit your needs)
 
 ### config
