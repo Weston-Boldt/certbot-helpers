@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # your email address
 email=your_email@emailprovider.com
 # your webroot path

@@ -1,3 +1,4 @@
+#!/bin/bash
 dns_is_on_this_server()
 {
     client_ip=$(dig +short $1)

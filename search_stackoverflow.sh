@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # for when you are very stuck
 search_stackoverflow() {
     search=""
