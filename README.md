@@ -1,5 +1,5 @@
 # Certbot Helpers
-> helper scripts for managing certs via certbot / lets encrypt
+> helper bash scripts for managing certs via certbot / lets encrypt
 
 ## note
 my personal preference is to keep cert-names for a domain in a uniform way
